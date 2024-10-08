@@ -26,7 +26,7 @@ model = load_model('./models/EfficientNetB7_model.keras')  # Path to your saved 
 # Define the path to the base directory
 BASE_DIR = './models'
 
-csv_file_path = os.path.join(BASE_DIR, 'captions.txt')
+# csv_file_path = os.path.join(BASE_DIR, 'updated_captions.csv')
 
 # create mapping of image to captions
 mapping = {}
